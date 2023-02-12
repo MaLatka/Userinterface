@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675774334764' stop='1675774335038'>
+    <name>Api Test</name>
+    <title>Api Test</title>
+    <test-cases>
+        <test-case start='1675774334765' status='failed' stop='1675774335038'>
+            <name>returns the correct response</name>
+            <title>returns the correct response</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1675774334975' status='passed' stop='1675774335037'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='14b3446d-79ad-4d73-b20c-b5e366f620df-attachment.png' type='image/png' size='5373'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Unexpected token 'o', "[object Obj"... is not valid JSON</message>
+                <stack-trace>SyntaxError: Unexpected token 'o', "[object Obj"... is not valid JSON
+                    at JSON.parse (&lt;anonymous>)
+                    at JsonUtil.parseJsonData (file:///C:/Users/Magda/qa_l2/m.latka/test/utility/jsonUtil.js:18:21)
+                    at Context.&lt;anonymous> (file:///C:/Users/Magda/qa_l2/m.latka/test/specs/test.spec.js:15:43)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

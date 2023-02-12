@@ -1,0 +1,175 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675950027968' stop='1675950029153'>
+    <name>User Inyerface</name>
+    <title>User Inyerface</title>
+    <test-cases>
+        <test-case start='1675950027968' status='broken' stop='1675950028918'>
+            <name>shows an error when picture is not uploaded</name>
+            <title>shows an error when picture is not uploaded</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.77'/>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.77'/>
+            </parameters>
+            <steps>
+                <step start='1675950027970' status='passed' stop='1675950028791'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='977956d7-4cd5-4bfc-9175-a9e91801772e-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675950028792' status='passed' stop='1675950028917'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='17220ab5-6ea6-4142-b2f1-2e908432827c-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>this[#uniqueElement].isElementPresent is not a function</message>
+                <stack-trace>TypeError: this[#uniqueElement].isElementPresent is not a function
+                    at HomePage.isFormOpen (file:///C:/Users/Magda/qa_l2/m.latka/framework/baseForm.js:11:36)
+                    at Context.&lt;anonymous> (file:///C:/Users/Magda/qa_l2/m.latka/project/specs/test.spec.js:19:38)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675950028919' status='broken' stop='1675950029019'>
+            <name>hides help form after clicking hide button</name>
+            <title>hides help form after clicking hide button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.77'/>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.77'/>
+            </parameters>
+            <steps>
+                <step start='1675950028919' status='passed' stop='1675950029004'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='29ac3811-af78-4e05-a5e9-aed4cd80cab0-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675950029004' status='passed' stop='1675950029018'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='a9f87102-d7bc-457b-b794-947ef26a924b-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>this[#uniqueElement].isElementPresent is not a function</message>
+                <stack-trace>TypeError: this[#uniqueElement].isElementPresent is not a function
+                    at HomePage.isFormOpen (file:///C:/Users/Magda/qa_l2/m.latka/framework/baseForm.js:11:36)
+                    at Context.&lt;anonymous> (file:///C:/Users/Magda/qa_l2/m.latka/project/specs/test.spec.js:43:38)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675950029019' status='broken' stop='1675950029091'>
+            <name>closes cookies notification after accepting</name>
+            <title>closes cookies notification after accepting</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.77'/>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.77'/>
+            </parameters>
+            <steps>
+                <step start='1675950029020' status='passed' stop='1675950029084'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='506bbe35-fb5c-4a78-99c6-13e33dab903f-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675950029084' status='passed' stop='1675950029090'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='18afe293-d89b-491f-bd16-c090676073e6-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>this[#uniqueElement].isElementPresent is not a function</message>
+                <stack-trace>TypeError: this[#uniqueElement].isElementPresent is not a function
+                    at HomePage.isFormOpen (file:///C:/Users/Magda/qa_l2/m.latka/framework/baseForm.js:11:36)
+                    at Context.&lt;anonymous> (file:///C:/Users/Magda/qa_l2/m.latka/project/specs/test.spec.js:52:38)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675950029091' status='broken' stop='1675950029153'>
+            <name>checks if timer starts at 00:00:00</name>
+            <title>checks if timer starts at 00:00:00</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.77'/>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.77'/>
+            </parameters>
+            <steps>
+                <step start='1675950029092' status='passed' stop='1675950029145'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='1c253a73-3934-40bf-868b-05ae9c6b219a-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675950029145' status='passed' stop='1675950029152'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='db5e3270-1d03-45c0-8910-4b5de3b52253-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>this[#uniqueElement].isElementPresent is not a function</message>
+                <stack-trace>TypeError: this[#uniqueElement].isElementPresent is not a function
+                    at HomePage.isFormOpen (file:///C:/Users/Magda/qa_l2/m.latka/framework/baseForm.js:11:36)
+                    at Context.&lt;anonymous> (file:///C:/Users/Magda/qa_l2/m.latka/project/specs/test.spec.js:63:38)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

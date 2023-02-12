@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675771812409' stop='1675771812674'>
+    <name>Api Test</name>
+    <title>Api Test</title>
+    <test-cases>
+        <test-case start='1675771812409' status='broken' stop='1675771812673'>
+            <name>returns the correct response</name>
+            <title>returns the correct response</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1675771812615' status='passed' stop='1675771812673'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c5d824dd-46b0-4408-b830-2ee1b45fb9d8-attachment.png' type='image/png' size='5373'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Object.isObject is not a function</message>
+                <stack-trace>TypeError: Object.isObject is not a function
+                    at file:///C:/Users/Magda/qa_l2/m.latka/test/utility/objectUtil.js:7:25
+                    at Array.map (&lt;anonymous>)
+                    at ObjectUtil.isArrayOfObjects (file:///C:/Users/Magda/qa_l2/m.latka/test/utility/objectUtil.js:6:15)
+                    at Context.&lt;anonymous> (file:///C:/Users/Magda/qa_l2/m.latka/test/specs/test.spec.js:17:34)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

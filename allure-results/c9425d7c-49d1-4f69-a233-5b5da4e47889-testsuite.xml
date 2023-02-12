@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675847840769' stop='1675847841563'>
+    <name>Api Test</name>
+    <title>Api Test</title>
+    <test-cases>
+        <test-case start='1675847840769' status='failed' stop='1675847841562'>
+            <name>returns the correct response</name>
+            <title>returns the correct response</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1675847841501' status='passed' stop='1675847841559'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='899f5670-a01c-4d95-aba2-ece98e388f60-attachment.png' type='image/png' size='5373'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>the data is not equal: expected { userId: 1, …(3) } to equal { userId: 1, …(2) }      
+                      actual expected
+                      
+                      { userId: 1, title: '4kvp2ph26tw', body: 'arh1zetc3f8', id: 101 }
+                      </message>
+                <stack-trace>AssertionError: the data is not equal: expected { userId: 1, …(3) } to equal { userId: 1, …(2) }
+                    at Context.&lt;anonymous> (file:///C:/Users/Magda/qa_l2/m.latka/test/specs/test.spec.js:49:16)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

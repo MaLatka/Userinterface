@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675170429173' stop='1675170429997'>
+    <name>Test</name>
+    <title>Test</title>
+    <test-cases>
+        <test-case start='1675170429174' status='broken' stop='1675170429996'>
+            <name>goes to userinyerface</name>
+            <title>goes to userinyerface</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675170429175' status='passed' stop='1675170429892'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='240f8ada-f7be-45d6-aad5-652df2063de0-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675170429893' status='passed' stop='1675170429910'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2ee380b5-22a2-427f-ac5d-def8b3ecb943-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='5e2b2a42-8a66-48f6-b33b-e2ac141f971e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675170429914' status='passed' stop='1675170429995'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a64d969f-5f2b-49bc-85ac-c31ba3303afc-attachment.png' type='image/png' size='49896'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Wrong parameters applied for isElementDisplayed
+                Usage: isElementDisplayed(elementId)
+                
+                Property Description:
+                  "elementId" (string): the id of an element returned in a previous call to Find Element(s)
+                
+                For more info see https://w3c.github.io/webdriver/#element-displayedness
+                </message>
+                <stack-trace>Error: Wrong parameters applied for isElementDisplayed
+                Usage: isElementDisplayed(elementId)
+                
+                Property Description:
+                  "elementId" (string): the id of an element returned in a previous call to Find Element(s)
+                
+                For more info see https://w3c.github.io/webdriver/#element-displayedness
+                
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async WaitsUtil.waitForElementPresence (file:///C:/Users/Magda/qa_l2/m.latka/test/utility/waitsUtil.js:4:16)
+                    at async HomePage.isFormOpen (file:///C:/Users/Magda/qa_l2/m.latka/test/pageobjects/forms/baseForm.js:10:16)
+                    at async Context.&lt;anonymous> (file:///C:/Users/Magda/qa_l2/m.latka/test/specs/test.spec.js:12:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

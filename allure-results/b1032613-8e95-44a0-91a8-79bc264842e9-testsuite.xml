@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675855380699' stop='1675855381199'>
+    <name>Api Test</name>
+    <title>Api Test</title>
+    <test-cases>
+        <test-case start='1675855380699' status='failed' stop='1675855381199'>
+            <name>returns the correct response</name>
+            <title>returns the correct response</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1675855381136' status='passed' stop='1675855381196'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a6416493-ae8b-47f5-acd0-156aa599904f-attachment.png' type='image/png' size='5373'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>response status does not equal 200: expected 404 to equal 200      
+                      actual expected
+                      
+                      404200
+                      </message>
+                <stack-trace>AssertionError: response status does not equal 200: expected 404 to equal 200
+                    at Context.&lt;anonymous> (file:///C:/Users/Magda/qa_l2/m.latka/test/specs/test.spec.js:21:16)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

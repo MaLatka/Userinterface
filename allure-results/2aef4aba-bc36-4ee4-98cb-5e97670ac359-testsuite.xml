@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675860261236' stop='1675860261846'>
+    <name>Api Test</name>
+    <title>Api Test</title>
+    <test-cases>
+        <test-case start='1675860261237' status='failed' stop='1675860261846'>
+            <name>returns the correct response</name>
+            <title>returns the correct response</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1675860261774' status='passed' stop='1675860261843'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0657cc55-79db-42a6-9694-ccb1b8c344d9-attachment.png' type='image/png' size='5373'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>the data is not equal: expected { id: 101 } to have property 'userId'      
+                      actual expected
+                      
+                      { id: 101 }undefined
+                      </message>
+                <stack-trace>AssertionError: the data is not equal: expected { id: 101 } to have property 'userId'
+                    at Context.&lt;anonymous> (file:///C:/Users/Magda/qa_l2/m.latka/test/specs/test.spec.js:31:16)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

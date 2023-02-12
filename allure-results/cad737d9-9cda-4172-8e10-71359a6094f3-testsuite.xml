@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675783789830' stop='1675783810975'>
+    <name>Api Test</name>
+    <title>Api Test</title>
+    <test-cases>
+        <test-case start='1675783789830' status='broken' stop='1675783810974'>
+            <name>returns the correct response</name>
+            <title>returns the correct response</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1675783810914' status='passed' stop='1675783810973'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5b58f843-75a3-4655-8ed8-f3fdf2e1eff4-attachment.png' type='image/png' size='5373'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>connect ETIMEDOUT 188.114.96.9:443</message>
+                <stack-trace>Error: connect ETIMEDOUT 188.114.96.9:443
+                    at AxiosError.from (file:///C:/Users/Magda/qa_l2/m.latka/node_modules/axios/lib/core/AxiosError.js:89:14)
+                    at RedirectableRequest.handleRequestError (file:///C:/Users/Magda/qa_l2/m.latka/node_modules/axios/lib/adapters/http.js:569:25)
+                    at RedirectableRequest.emit (node:events:512:28)
+                    at RedirectableRequest.emit (node:domain:489:12)
+                    at eventHandlers.&lt;computed> (C:\Users\Magda\qa_l2\m.latka\node_modules\follow-redirects\index.js:14:24)
+                    at ClientRequest.emit (node:events:512:28)
+                    at ClientRequest.emit (node:domain:489:12)
+                    at TLSSocket.socketErrorListener (node:_http_client:496:9)
+                    at TLSSocket.emit (node:events:512:28)
+                    at TLSSocket.emit (node:domain:489:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

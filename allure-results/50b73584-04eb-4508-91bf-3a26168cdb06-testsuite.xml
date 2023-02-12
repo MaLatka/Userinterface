@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675785768701' stop='1675785769058'>
+    <name>Api Test</name>
+    <title>Api Test</title>
+    <test-cases>
+        <test-case start='1675785768701' status='broken' stop='1675785769058'>
+            <name>returns the correct response</name>
+            <title>returns the correct response</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1675785769004' status='passed' stop='1675785769057'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='27c4a0a2-ee07-488a-b45d-de4c2bc2b999-attachment.png' type='image/png' size='5373'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Request failed with status code 404</message>
+                <stack-trace>AxiosError: Request failed with status code 404
+                    at settle (file:///C:/Users/Magda/qa_l2/m.latka/node_modules/axios/lib/core/settle.js:19:12)
+                    at IncomingMessage.handleStreamEnd (file:///C:/Users/Magda/qa_l2/m.latka/node_modules/axios/lib/adapters/http.js:548:11)
+                    at IncomingMessage.emit (node:events:524:35)
+                    at IncomingMessage.emit (node:domain:489:12)
+                    at endReadableNT (node:internal/streams/readable:1359:12)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
